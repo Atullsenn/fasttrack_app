@@ -1,0 +1,121 @@
+input::-ms-clear {
+	display: none;
+}			
+td.Prc {
+	min-width: 60px;
+	text-align: right;
+}
+table.KKK {
+	border: 0;
+	border-spacing: 0;
+	}
+
+table.KKK th {
+	color: white;
+	background-color: #335033;
+}
+
+table.KKK tr:nth-child(even) {
+	background: #efefef;
+}
+
+table.KKK td {
+	border: 2px solid #e1e1e1;
+	padding: 3px;
+}
+
+.last-login-popup-area .modal-dialog{
+max-width:80%;	
+}
+
+.last-login-popup-area .table-responsive {
+display:block;	
+}
+
+
+.table td {
+border: 1px solid #cdcdcd;	
+}
+
+.table thead th {
+border:1px solid #fff;	
+}
+
+.fa-plus-circle-area {
+width:40px;
+height:40px;
+border-radius: 50%;
+background: #203444;
+text-align:center;
+}
+
+
+.fa-plus-circle-area i {
+color: #fff;
+line-height: 40px;
+font-size: 18px;
+}
+
+
+.table thead th.tblborderNone {
+    border: none;
+}
+
+.th-in-th-border-area tr {
+position: relative;	
+}
+
+.th-in-th-border-area tr th {
+border:none;
+	
+}
+
+.th-border-main-area::before{
+	content: "";
+    position: absolute;
+    width: 1px;
+    background: #fff;
+    height: 140%;
+    margin: 0px 0px 0px -10px;
+    top: -16px;
+}
+
+
+
+.tr-in-tr-border-area {
+position: relative;	
+}
+
+/* .manage-admins-table-area .tr-in-tr-border-area td {
+border:none !important;
+} */
+
+
+.td-border-main-area::before{
+content: "";
+position: absolute;
+width: 1px;
+background: #fff;
+height: 140%;
+margin: 0px 0px 0px -10px;
+top: -16px;
+}
+.cursepointer-td-data{
+	cursor: pointer;
+}
+table.dataTable tbody , table.dataTable tbody td {
+    width: 1%;
+}
+
+.search input{
+	margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+	
+}
+
+.search label{
+	display: inline-block;
+    margin-bottom: 0.5rem;
+}
